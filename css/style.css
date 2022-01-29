@@ -1,0 +1,593 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    /* буду типо использовать как стандрат потому что нету авакода и это обязательно как контейнер */
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+
+
+.first {
+    height: 800px;
+    background: url('../img/mainbackg.jpg') center center/cover no-repeat;
+    /* center center размер по х размер у , cover размер то есть расстягиваем ,  background-image background-position background-size background-repeat background-origin */
+    padding: 39px 0 62px 0;
+    /* Внутренние отступы первого контейнера */
+
+
+
+}
+
+
+.logo .logo_img {
+    /* То есть в этом блоке есть еще один блок */
+    display: block;
+    margin: 0 auto;
+    /* Это свойство только для блочных элементов  */
+
+}
+
+.logo .logo_text {
+    margin: 14px 193px 0 191px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    /* Вид текста , в данном случае в капсе  */
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1 {
+
+    margin-top: 53px;
+}
+
+
+.title {
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 24px;
+    text-align: center;
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+
+
+
+
+.simple .title_big {
+    margin-top: 21px;
+    font-family: "Roboto-Black";
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+h2.title {
+    margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.first .promo_text {
+    padding: 0 13px;
+    /* ////ВОТ ОН ХЗ НАДО СПРОСИТЬ КАК ЭТА ТЕМА РОБАТАЕТ  */
+    /* По вертикали ноль , а по бокам 13 пикселей */
+    margin-top: 23px;
+    font-family: "Roboto Light";
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.first .promo_text span {
+    font-family: "Roboto-Bold";
+    font-weight: 700;
+    color: #f9bf3b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.first .knop {
+
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+
+
+    display: block;
+    margin: 0px auto;
+    /* Первый способ */
+    margin-top: 73px;
+
+    /* margin: 73px auto;  */
+    /* По вертикали будет 73 , а по горизонтали авто  */
+    /* Либо можно как снизу */
+    /* Это второй вариант как стилизовать  */
+
+
+    /* margin: 0 auto;    Это третий вариант как стилизовать 
+        margin-top: 73px; Марджин топ надо всегда снизу
+        margin-bottom: 73px; То есть снизу тоже 73px */
+
+
+    text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* когда наводишь на кнопку */
+    /* outline: none; */
+    /* То есть линия на кнопке, можно ее убрать по желанию */
+}
+
+
+
+.down_text {
+    margin-top: 73px;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.down_img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 13px;
+}
+
+
+
+
+
+
+.second {
+    min-height: 604px;
+    /* Минимальная высота если друг в будущем нужна будет высота если будем увеличивать контент текст  */
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.head {
+
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+}
+
+
+.line_yellow {
+    display: block;
+    margin: 0px auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.free {
+    margin-top: 17px;
+    font-family: "Roboto";
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+
+
+
+
+.box_icons {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.box_item {
+
+    width: 339px;
+
+
+}
+
+.box_text {
+    margin-top: 33px;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+
+/* .my-flex-container{
+    display: flex;
+    justify-content: space-around; Выравниваем по главной оси 
+     align-items: center;  выравнивает поперечной оси 
+    height: 440px;
+}
+    
+
+  
+.my-flex-block{
+
+
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    text-align: center;
+     color: white;
+} 
+*/
+
+
+.third {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.text {
+    margin-left: 391px;
+
+    font-family: "Roboto-Black";
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+
+.optimiz_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    font-family: "Roboto-Light";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #4a4a4a;
+
+}
+
+.third .optimiz_text span {
+    font-weight: "Roboto-Bold";
+    line-height: 27px;
+    font-weight: 700;
+}
+
+
+.woman {
+    position: absolute;
+    top: -10px;
+    left: -240px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.finish {
+    background: url('../img/secondbackg.jpg') center center/cover no-repeat;
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+
+
+}
+
+
+
+.head_finish {
+
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 30px;
+    line-height: 12px;
+    font-weight: 400px;
+    text-align: center;
+    color: #efefef;
+
+}
+
+
+.finish_line {
+    display: block;
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.finish_blocks {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish_item {
+    width: 204px;
+}
+
+.finish_round {
+    display: flex;
+    /* Каждая иконка тала по центру */
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+    /* Это округление  */
+}
+
+.finish_text {
+    margin-top: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.18;
+    text-align: center;
+    color: #efefef;
+
+}
+
+
+
+
+
+
+.five {
+    min-height: 628px;
+    padding: 86px 0 87px 0;
+    background-color: #efefef;
+
+}
+
+.img_gift {
+
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.gift_text {
+    text-align: center;
+    margin-top: 42px;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-style: normal;
+    line-height: 40px;
+    color: #252525;
+}
+
+
+.knopka {
+
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+
+
+    display: block;
+    margin: 0px auto;
+    /* Первый способ */
+    margin-top: 52px;
+
+    /* margin: 73px auto;  */
+    /* По вертикали будет 73 , а по горизонтали авто  */
+    /* Либо можно как снизу */
+    /* Это второй вариант как стилизовать  */
+
+
+    /* margin: 0 auto;    Это третий вариант как стилизовать 
+        margin-top: 73px; Марджин топ надо всегда снизу
+        margin-bottom: 73px; То есть снизу тоже 73px */
+
+
+    text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* когда наводишь на кнопку */
+    /* outline: none; */
+    /* То есть линия на кнопке, можно ее убрать по желанию */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.six {
+    min-height: 550px;
+    padding: 89px 0 64px 0;
+
+}
+
+.last_img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.last_text {
+    text-align: center;
+    margin-top: 37px;
+    font-family: "Roboto";
+    font-size: 30px;
+    line-height: 12px;
+    color: #252525;
+}
+
+.september {
+    margin-top: 30px;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+
+.mest {
+
+
+    margin-top: 25px;
+    padding: 0 17px;
+    font-family: "Roboto";
+    font-size: 23px;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+
+
+
+
+
+
+
+.footer_icon {
+
+    background-color: #1a1a1a;
+    height: 166px;
+    padding: 61px 0 69px 0;
+
+}
+
+.footer_text {
+    text-align: center;
+
+
+}
+
+.sluzh {
+
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888;
+}
+
+.politika {
+
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888;
+}
+
+.call_us {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888;
+}
